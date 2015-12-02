@@ -15,6 +15,10 @@ profile5:
   participant: participant5
   active: true
 
+profile_moderator:
+  participant: participant_grp1_moderator
+  active: true
+
 profile61:
   participant: participant61
   active: true
