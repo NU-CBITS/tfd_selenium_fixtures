@@ -1,3 +1,6 @@
+## 0.0.3 - 2015-12-2
+* Add conditional logic to handle differences in host apps
+
 ## 0.0.2 - 2015-12-1
 * Update fixtures to resolve dependencies
 
