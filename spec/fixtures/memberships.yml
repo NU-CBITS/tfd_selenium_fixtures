@@ -229,3 +229,29 @@
     start_date: <%= Date.today - 67.days %>    
     end_date: <%= Date.today + 112.days %>
 <% end %>
+
+<% unless ENV['tfd'] %>
+  membership_goal_1:
+    participant: participant_goal_1
+    group: group_goal
+    start_date: <%= Date.today %>
+    end_date: <%= Date.today + 35.days %>
+
+  membership_goal_2:
+    participant: participant_goal_2
+    group: group_goal
+    start_date: <%= Date.today %>
+    end_date: <%= Date.today + 21.days %>
+
+  membership_goal_3:
+    participant: participant_goal_3
+    group: group_goal
+    start_date: <%= Date.today %>
+    end_date: <%= Date.today + 14.days %>
+
+  membership_goal_4:
+    participant: participant_goal_4
+    group: group_goal
+    start_date: <%= Date.today %>
+    end_date: <%= Date.today + 1.days %>
+<% end %>

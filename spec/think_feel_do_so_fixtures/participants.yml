@@ -269,3 +269,27 @@ participant_test_7:
   email: test_7@example.com
   display_name: "test_7"
   encrypted_password: <%= Participant.new.send(:password_digest, "9ed56e32af0a77d8b60d85b3a6361054aa9306996a28eed36e95e87bef3642b3576239d978febfb2d21595a98dc4a48c7460b595d279d6f23a9d03d989bb1503") %>
+
+participant_goal_1:
+  study_id: goal_1
+  email: goal_1@example.com
+  display_name: "goal_1"
+  encrypted_password: <%= Participant.new.send(:password_digest, "9ed56e32af0a77d8b60d85b3a6361054aa9306996a28eed36e95e87bef3642b3576239d978febfb2d21595a98dc4a48c7460b595d279d6f23a9d03d989bb1503") %>
+
+participant_goal_2:
+  study_id: goal_2
+  email: goal_2@example.com
+  display_name: "goal_2"
+  encrypted_password: <%= Participant.new.send(:password_digest, "9ed56e32af0a77d8b60d85b3a6361054aa9306996a28eed36e95e87bef3642b3576239d978febfb2d21595a98dc4a48c7460b595d279d6f23a9d03d989bb1503") %>
+
+participant_goal_3:
+  study_id: goal_3
+  email: goal_3@example.com
+  display_name: "goal_3"
+  encrypted_password: <%= Participant.new.send(:password_digest, "9ed56e32af0a77d8b60d85b3a6361054aa9306996a28eed36e95e87bef3642b3576239d978febfb2d21595a98dc4a48c7460b595d279d6f23a9d03d989bb1503") %>
+
+participant_goal_4:
+  study_id: goal_4
+  email: goal_4@example.com
+  display_name: "goal_4"
+  encrypted_password: <%= Participant.new.send(:password_digest, "9ed56e32af0a77d8b60d85b3a6361054aa9306996a28eed36e95e87bef3642b3576239d978febfb2d21595a98dc4a48c7460b595d279d6f23a9d03d989bb1503") %>

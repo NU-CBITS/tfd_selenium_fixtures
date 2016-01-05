@@ -62,4 +62,9 @@
     creator: clinician1
     title: PHQ Group
     arm: arm1
+
+  group_goal:
+    creator: clinician1
+    title: Group Goal
+    arm: arm1
 <% end %>
