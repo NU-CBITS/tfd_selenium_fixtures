@@ -1,3 +1,6 @@
+## 0.0.5 - 2016-1-5
+* Add marigold specific fixtures
+
 ## 0.0.4 - 2016-1-5
 * Add fixtures for goal examples
 * Add display name for social arm participant
