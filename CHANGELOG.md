@@ -1,3 +1,6 @@
+## 0.0.6 - 2016-1-5
+* Match version with release
+
 ## 0.0.5 - 2016-1-5
 * Add marigold specific fixtures
 
