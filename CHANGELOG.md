@@ -1,3 +1,6 @@
+## 0.0.7 - 2015-1-8
+* Update new fixtures for goal examples
+
 ## 0.0.6 - 2016-1-5
 * Match version with release
 
