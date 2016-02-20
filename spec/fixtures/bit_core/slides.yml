@@ -79,6 +79,88 @@ home_intro8:
   type: BitCore::AudioSlide
   options: <%= { audio_url: "https://intellicare.cbits.northwestern.edu/static/audio/autogenic/01_autogenic.mp3" }.to_yaml.inspect %>
 
+home_intro1_3:
+  slideshow: home_intro_3
+  position: 1
+  title: "It's simple."
+  body: If you're feeling sad or down and want to get better, this is for you.
+    ![](/assets/think_feel_do_engine/head_with_gears.jpg)
+
+home_intro2_3:
+  slideshow: home_intro_3
+  position: 2
+  title: Slide 2
+  is_title_visible: false
+  body: "Log in once a day and tell us you're doing.
+
+
+    Read a few things.
+
+    Do a few things."
+
+home_intro3_3:
+  slideshow: home_intro_3
+  position: 3
+  title: Slide 3
+  is_title_visible: false
+  body: Come back every day for a few weeks.
+
+
+    Give it a chance.
+
+
+    See if you'll feel better.
+
+home_intro4_3:
+  slideshow: home_intro_3
+  position: 4
+  type: BitCore::VideoSlide
+  title: Slide 4
+  is_title_visible: false
+  body: 'This slide 4'
+  options: { url: "http://mohrlab.northwestern.edu/video/introtfd.mp4" }
+
+home_intro5_3:
+  slideshow: home_intro_3
+  position: 5
+  title: Slide 5
+  is_title_visible: false
+  body: Come back every day for a few weeks.
+
+
+    Give it a chance.
+
+
+    See if you'll feel better.
+
+home_intro6_3:
+  slideshow: home_intro_3
+  position: 6
+  type: BitCore::VideoSlide
+  title: Slide 6
+  is_title_visible: false
+  body: ''
+  options: { url: "http://mohrlab.northwestern.edu/video/introtfd.mp4" }
+
+home_intro7_3:
+  slideshow: home_intro_3
+  position: 7
+  title: Slide 7
+  is_title_visible: false
+  body: 'Test audio slide'
+  type: BitCore::AudioSlide
+  options: <%= { audio_url: "https://intellicare.cbits.northwestern.edu/static/audio/autogenic/01_autogenic.mp3" }.to_yaml.inspect %>
+
+home_intro8_3:
+  slideshow: home_intro_3
+  position: 8
+  title: Slide 8
+  is_title_visible: false
+  body: 'Test audio slide'
+  type: BitCore::AudioSlide
+  options: <%= { audio_url: "https://intellicare.cbits.northwestern.edu/static/audio/autogenic/01_autogenic.mp3" }.to_yaml.inspect %>
+
+
 home_splash1:
   slideshow: home_splash
   position: 1
@@ -534,6 +616,14 @@ feel_identifying_intro1_arm2:
 
 audio_slide_arm2:
   slideshow: audio_slideshow_arm2
+  position: 1
+  title: "Audio!" 
+  body: "Yay"
+  type: BitCore::AudioSlide
+  options: { audio_url: "https://intellicare.cbits.northwestern.edu/static/audio/autogenic/01_autogenic.mp3" }
+
+audio_slide_3:
+  slideshow: audio_slideshow_3
   position: 1
   title: "Audio!" 
   body: "Yay"

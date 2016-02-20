@@ -254,4 +254,10 @@
     group: group_goal
     start_date: <%= Date.today %>
     end_date: <%= Date.today + 1.days %>
+
+  membership_marigold_1:
+    participant: participant_marigold_1
+    group: group_marigold
+    start_date: <%= Date.today %>
+    end_date: <%= Date.today + 10.days %>
 <% end %>

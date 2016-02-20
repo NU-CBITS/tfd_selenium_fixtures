@@ -1626,3 +1626,38 @@ task_status_pt_data_task_8:
   membership: membership_data
   task: task8
   start_day: 1
+
+task_status_marigold_1_task_1:
+  membership: membership_marigold_1
+  task: group_marigold_task_1
+  start_day: 1
+
+task_status_marigold_1_task_2:
+  membership: membership_marigold_1
+  task: group_marigold_task_2
+  start_day: 1
+
+task_status_marigold_1_task_3:
+  membership: membership_marigold_1
+  task: group_marigold_task_3
+  start_day: 1
+
+task_status_marigold_1_task_4:
+  membership: membership_marigold_1
+  task: group_marigold_task_4
+  start_day: 1
+
+task_status_marigold_1_task_5:
+  membership: membership_marigold_1
+  task: group_marigold_task_5
+  start_day: 1
+
+task_status_marigold_1_task_6:
+  membership: membership_marigold_1
+  task: group_marigold_task_6
+  start_day: 1
+
+task_status_marigold_1_task_7:
+  membership: membership_marigold_1
+  task: group_marigold_task_7
+  start_day: 1

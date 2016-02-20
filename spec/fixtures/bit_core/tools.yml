@@ -93,3 +93,40 @@
     arm: arm2
     type: Tools::Goals
 <% end %>
+
+<% if true %>
+  home3:
+    position: 0
+    title: home
+    arm: arm3
+    type: Tools::Home
+
+  gratitude_1:
+    position: 1
+    title: GRATITUDE
+    arm: arm3 
+    type: Tools::GratitudeRecordings
+
+  positive_events_1:
+    position: 2
+    title: POSITIVE EVENTS
+    arm: arm3
+    type: Tools::Experiences
+
+  relax3:
+    position: 3
+    title: RELAX
+    arm: arm3
+
+  library3:
+    position: 4
+    title: LEARN
+    arm: arm3
+    type: Tools::Learn
+
+  messages3:
+    position: 5
+    title: CONTACT
+    arm: arm3
+    type: Tools::Messages
+<% end %>

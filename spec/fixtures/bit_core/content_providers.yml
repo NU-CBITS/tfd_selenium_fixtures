@@ -866,4 +866,87 @@
     source_content: feel_mood_intro (BitCore::Slideshow)
     content_module: slideshow_content_module_12_2
     position: 1
+
+  home_feed_3:
+    type: ContentProviders::FeedToolProvider
+    show_next_nav: false
+    content_module: home3_landing
+    position: 1
+
+  gratitude_landing:
+    type: ContentProviders::ModuleIndexProvider
+    content_module: gratitude_landing
+    position: 1
+
+  gratitude_index:
+    type: ContentProviders::GratitudeRecordings::IndexProvider
+    content_module: gratitude_index
+    position: 1
+
+  gratitude_new:
+    type: ContentProviders::GratitudeRecordings::NewProvider
+    content_module: gratitude_new
+    position: 1
+
+  positive_events_landing:
+    type: ContentProviders::ModuleIndexProvider
+    content_module: positive_events_landing
+    position: 1
+
+  positive_events_index:
+    type: ContentProviders::Experiences::IndexProvider
+    content_module: positive_events_index
+    position: 1
+
+  positive_events_new:
+    type: ContentProviders::Experiences::NewProvider
+    content_module: positive_events_new
+    position: 1
+
+  relax_index_provider_3:
+    type: ContentProviders::ModuleIndexProvider
+    show_next_nav: false
+    content_module: relax_landing3
+    position: 1
+
+  relax_autogenic_provider:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: audio_slideshow_3 (BitCore::Slideshow)
+    content_module: relax_autogenic_exercises3
+    position: 1
+
+  library_lessons_3:
+    type: ContentProviders::LearnLessonsIndexProvider
+    content_module: library_landing3
+    position: 1
+
+  messages_landing_3:
+    type: ContentProviders::SnMessagesIndexProvider
+    content_module: messages_landing3
+    position: 1
+
+  message_view_3:
+    type: ContentProviders::SnShowMessageProvider
+    content_module: messages_landing3
+    position: 2
+
+  messages_compose_3:
+    type: ContentProviders::SnNewMessageFormProvider
+    content_module: messages_landing3
+    position: 3
+
+  content_provider_slideshow_1_3:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: home_intro_3 (BitCore::Slideshow)
+    content_module: slideshow_content_module_1_3
+    position: 1
+
+  content_provider_slideshow_17_3:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: home_intro_3 (BitCore::Slideshow)
+    content_module: slideshow_content_module_17_3
+    position: 1
 <% end %>

@@ -496,4 +496,70 @@
     tool: library2
     type: "ContentModules::LessonModule"
     position: 18
+
+  home3_landing:
+    title: Landing 
+    tool: home3
+
+  gratitude_landing:
+    title: Gratitude Recordings Landing
+    tool: gratitude_1
+    position: 1
+
+  gratitude_index:
+    title: Gratitude Recordings
+    tool: gratitude_1
+    position: 2
+
+  gratitude_new:
+    title: New Gratitude Recording
+    tool: gratitude_1
+    position: 3
+
+  positive_events_landing:
+    title: Positive Events Landing
+    tool: positive_events_1
+    position: 1
+
+  positive_events_index:
+    title: Positive Events
+    tool: positive_events_1
+    position: 2
+
+  positive_events_new:
+    title: New Positive Events
+    tool: positive_events_1
+    position: 3
+
+  relax_landing3:
+    title: RELAX Home
+    tool: relax3
+    position: 1
+
+  relax_autogenic_exercises3:
+    title: Autogenic Exercises
+    tool: relax3
+    position: 2
+
+  messages_landing3:
+    title: Contact
+    tool: messages3
+    position: 1
+
+  library_landing3:
+    title: Lessons
+    tool: library3
+    position: 1  
+
+  slideshow_content_module_1_3:
+    title: Home Introduction
+    tool: library3
+    type: "ContentModules::LessonModule"
+    position: 2
+
+  slideshow_content_module_17_3:
+    title: Testing adding/updating slides/lessons
+    tool: library3
+    type: "ContentModules::LessonModule"
+    position: 3
 <% end %>

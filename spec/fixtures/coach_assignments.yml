@@ -137,3 +137,7 @@ assignment_for_phq_15:
 assignment_for_phq_16:
   participant: participant_phq_16
   coach: clinician1
+
+assignment_for_marigold_1:
+  participant: participant_marigold_1
+  coach: clinician1

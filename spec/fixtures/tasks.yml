@@ -664,3 +664,52 @@ group1_task_12:
   bit_core_content_module: slideshow_content_module_12
   release_day: 50
   has_didactic_content: true
+
+group_marigold_task_1:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: gratitude_index
+  release_day: 1
+  has_didactic_content: false
+
+group_marigold_task_2:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: gratitude_new
+  release_day: 1
+  has_didactic_content: true
+
+group_marigold_task_3:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: positive_events_index
+  release_day: 1
+  has_didactic_content: false
+
+group_marigold_task_4:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: positive_events_new
+  release_day: 1
+  has_didactic_content: true
+
+group_marigold_task_5:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: relax_autogenic_exercises3
+  release_day: 1
+  has_didactic_content: true
+
+group_marigold_task_6:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: slideshow_content_module_1_3
+  release_day: 1
+  has_didactic_content: true
+
+group_marigold_task_7:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: slideshow_content_module_17_3
+  release_day: 1
+  has_didactic_content: true

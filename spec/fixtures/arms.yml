@@ -16,9 +16,6 @@
 <% end %>
 
 <% if true %>
-  arm3: 
-    title: Testing Arm
-
-  arm4: 
-    title: Testing Arm 2
+  arm3:
+    title: Marigold Arm 1
 <% end %>
