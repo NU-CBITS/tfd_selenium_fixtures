@@ -101,31 +101,24 @@
     arm: arm3
     type: Tools::Home
 
-  gratitude_1:
-    position: 1
-    title: GRATITUDE
-    arm: arm3 
-    type: Tools::GratitudeRecordings
-
-  positive_events_1:
-    position: 2
-    title: POSITIVE EVENTS
-    arm: arm3
-    type: Tools::Experiences
-
-  relax3:
-    position: 3
-    title: RELAX
-    arm: arm3
-
   library3:
-    position: 4
-    title: LEARN
+    position: 1
+    title: SKILLS
     arm: arm3
     type: Tools::Learn
 
+  practice:
+    position: 2
+    arm: arm3
+    title: PRACTICE
+
+  feel_tracker3:
+    position: 3
+    arm: arm3
+    title: FEEL
+
   messages3:
-    position: 5
+    position: 4
     title: CONTACT
     arm: arm3
     type: Tools::Messages

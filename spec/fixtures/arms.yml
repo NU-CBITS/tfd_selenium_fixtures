@@ -18,4 +18,5 @@
 <% if true %>
   arm3:
     title: Marigold Arm 1
+    is_social: true
 <% end %>

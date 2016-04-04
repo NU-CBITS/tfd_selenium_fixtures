@@ -72,4 +72,5 @@
     creator: clinician1
     title: Marigold Group
     arm: arm3
+    moderator: clinician1
 <% end %>

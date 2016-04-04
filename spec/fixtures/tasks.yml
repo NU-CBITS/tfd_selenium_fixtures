@@ -713,3 +713,80 @@ group_marigold_task_7:
   bit_core_content_module: slideshow_content_module_17_3
   release_day: 1
   has_didactic_content: true
+
+group_marigold_task_8:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: mindfulness_new
+  release_day: 1
+  has_didactic_content: true
+
+group_marigold_task_9:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: mindfulness_view
+  release_day: 1
+  has_didactic_content: false
+
+group_marigold_task_10:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: meditation_new
+  release_day: 1
+  has_didactic_content: true
+
+group_marigold_task_11:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: meditation_view
+  release_day: 1
+  has_didactic_content: false
+
+group_marigold_task_12:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: kindness_new
+  release_day: 1
+  has_didactic_content: true
+
+group_marigold_task_13:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: kindness_view
+  release_day: 1
+  has_didactic_content: false
+
+group_marigold_task_14:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: strength_new
+  release_day: 1
+  has_didactic_content: true
+
+group_marigold_task_15:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: strength_view
+  release_day: 1
+  has_didactic_content: false
+
+group_marigold_task_16:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: reappraisal_new
+  release_day: 1
+  has_didactic_content: true
+
+group_marigold_task_17:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: reappraisal_view
+  release_day: 1
+  has_didactic_content: false
+
+group_marigold_task_18:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: feeling_tracker_emotions_rating
+  release_day: 1
+  has_didactic_content: false
