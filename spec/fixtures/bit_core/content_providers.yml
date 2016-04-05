@@ -1005,10 +1005,10 @@
     position: 1
 
   emotions_rating:
-    type: ContentProviders::Emotion::NewYesterdayProvider
+    type: ContentProviders::Emotions::NewYesterdayProvider
     content_module: feeling_tracker_emotions_rating
-    show_next_nav: true
-    position: 2
+    # show_next_nav: true
+    position: 1
 
   library_lessons_3:
     type: ContentProviders::LearnLessonsIndexProvider

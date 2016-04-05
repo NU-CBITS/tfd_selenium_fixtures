@@ -1,0 +1,4 @@
+gratitude_recording_1:
+  participant_id: <%= ActiveRecord::FixtureSet.identify(:participant_marigold_1) %>
+  description: My first gratitude recording
+  created_at: <%= DateTime.now - 1.days %>
