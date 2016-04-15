@@ -1,3 +1,6 @@
+## 0.0.9 - 2016-4-15
+* Update event_capture/events
+
 ## 0.0.8 - 2016-1-22
 * Update arms
 
