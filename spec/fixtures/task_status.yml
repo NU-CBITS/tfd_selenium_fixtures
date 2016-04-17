@@ -1716,3 +1716,13 @@ task_status_marigold_1_task_18:
   membership: membership_marigold_1
   task: group_marigold_task_18
   start_day: 1
+
+task_status_marigold_1_task_19:
+  membership: membership_marigold_1
+  task: group_marigold_task_19
+  start_day: 1
+
+task_status_marigold_1_task_20:
+  membership: membership_marigold_1
+  task: group_marigold_task_20
+  start_day: 1

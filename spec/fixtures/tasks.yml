@@ -790,3 +790,17 @@ group_marigold_task_18:
   bit_core_content_module: feeling_tracker_emotions_rating
   release_day: 1
   has_didactic_content: false
+
+group_marigold_task_19:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: activation_index
+  release_day: 1
+  has_didactic_content: false
+
+group_marigold_task_20:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: activation_new
+  release_day: 1
+  has_didactic_content: true

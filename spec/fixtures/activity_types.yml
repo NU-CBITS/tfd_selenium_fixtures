@@ -105,3 +105,15 @@ jogging_data:
 parkour_data:
   participant: participant_data
   title: Parkour
+
+jogging_marigold:
+  participant: participant_marigold_1
+  title: Jogging
+
+parkour_marigold:
+  participant: participant_marigold_1
+  title: Parkour
+
+speech_marigold:
+  participant: participant_marigold_1
+  title: Speech

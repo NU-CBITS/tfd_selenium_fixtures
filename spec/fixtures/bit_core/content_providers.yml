@@ -898,6 +898,23 @@
     content_module: positive_events_new
     position: 1
 
+  activation_new:
+    type: ContentProviders::Activities::NextProvider
+    content_module: activation_new
+    show_next_nav: false
+    position: 1
+
+  activation_review:
+    type: ContentProviders::Activities::ReviewPastProvider
+    content_module: activation_new
+    show_next_nav: true
+    position: 2
+
+  activation_index:
+    type: ContentProviders::Activities::IndexProvider
+    content_module: activation_index
+    position: 1
+
   relax_autogenic_provider:
     type: BitCore::ContentProviders::SlideshowProvider
     show_next_nav: true

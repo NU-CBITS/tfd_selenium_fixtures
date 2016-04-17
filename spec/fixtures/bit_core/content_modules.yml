@@ -525,7 +525,7 @@
     position: 1
 
   gratitude_index:
-    title: Gratitude Recordings
+    title: View Gratitude Recordings
     tool: practice
     position: 2
 
@@ -535,7 +535,7 @@
     position: 3
 
   positive_events_index:
-    title: Positive Events
+    title: View Positive Events
     tool: practice
     position: 4
 
@@ -544,65 +544,75 @@
     tool: practice
     position: 5
 
+  activation_new:
+    title: New Activation Activity
+    tool: practice
+    position: 6
+
+  activation_index:
+    title: View Activation Activities
+    tool: practice
+    position: 7
+
   relax_autogenic_exercises3:
     title: Autogenic Exercises
     tool: practice
-    position: 6
+    position: 8
 
   mindfulness_new:
     title: New Mindfulness Activity
     tool: practice
-    position: 7
+    position: 9
 
   mindfulness_review:
     title: Review Scheduled Mindfulness Activities
     tool: practice
-    position: 8
+    position: 10
 
   mindfulness_view:
     title: View Mindfulness Activities
     tool: practice
-    position: 9
+    position: 11
 
   meditation_new:
     title: New Meditation Activity
     tool: practice
-    position: 10
+    position: 12
 
   meditation_view:
     title: View Meditation Activities
     tool: practice
-    position: 11
+    position: 13
 
   kindness_new:
     title: New Kindness Journal
     tool: practice
-    position: 12
+    position: 14
 
   kindness_view:
     title: View Kindness Journal
     tool: practice
-    position: 13
+    position: 15
 
   strength_new:
     title: New Strengths Journal
     tool: practice
-    position: 14
+    position: 16
 
   strength_view:
     title: View Strengths Journal
     tool: practice
-    position: 15
+    position: 17
 
   reappraisal_new:
     title: New Reappraisal
     tool: practice
-    position: 16
+    position: 18
 
   reappraisal_view:
     title: View Reappraisals
     tool: practice
-    position: 17
+    position: 19
 
   feeling_tracker_landing3:
     title: Feel
