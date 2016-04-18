@@ -1,0 +1,5 @@
+meditation_1:
+  description: Guided-Breathing Meditation
+  comment: What an experience
+  participant: participant_marigold_1
+  created_at: <%= Time.zone.now - 2.hours %>
