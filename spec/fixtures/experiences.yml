@@ -1,0 +1,7 @@
+experience_1:
+  challenging_amplification: Past challenging amplification
+  description: Past description
+  participant_id: <%= ActiveRecord::FixtureSet.identify(:participant_marigold_1) %>
+  emotions: Past emotion
+  thoughts: Past thought
+  body_feelings: Past body feeling

@@ -1,3 +1,6 @@
+## 0.0.10 - 2016-4-15
+* Add Marigold fixtures
+
 ## 0.0.9 - 2016-4-15
 * Update event_capture/events
 

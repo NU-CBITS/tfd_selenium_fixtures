@@ -1,0 +1,7 @@
+reappraisal_1:
+  participant: participant_marigold_1
+  description: Reappraisal description
+  reappraisal_action: Reappraisal reappraisal
+  reflection: Reappraisal reflection
+  stressful_cause: Reappraisal stressor
+  created_at: <%= DateTime.now - 2.hours %>

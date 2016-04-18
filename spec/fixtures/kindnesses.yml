@@ -1,0 +1,4 @@
+kindness_1:
+  participant: participant_marigold_1
+  journal_entry: Old kindness
+  created_at: <%= DateTime.now - 2.hours %>

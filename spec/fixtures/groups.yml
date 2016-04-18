@@ -67,4 +67,10 @@
     creator: clinician1
     title: Group Goal
     arm: arm1
+
+  group_marigold:
+    creator: clinician1
+    title: Marigold Group
+    arm: arm3
+    moderator: clinician1
 <% end %>

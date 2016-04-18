@@ -1,0 +1,5 @@
+strength_1:
+  participant: participant_marigold_1
+  description: Strengths description
+  upcoming_challenge: Strengths challenges
+  created_at: <%= DateTime.now - 2.hours %>

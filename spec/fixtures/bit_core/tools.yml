@@ -93,3 +93,33 @@
     arm: arm2
     type: Tools::Goals
 <% end %>
+
+<% if true %>
+  home3:
+    position: 0
+    title: home
+    arm: arm3
+    type: Tools::Home
+
+  library3:
+    position: 1
+    title: SKILLS
+    arm: arm3
+    type: Tools::Learn
+
+  practice:
+    position: 2
+    arm: arm3
+    title: PRACTICE
+
+  feel_tracker3:
+    position: 3
+    arm: arm3
+    title: FEEL
+
+  messages3:
+    position: 4
+    title: CONTACT
+    arm: arm3
+    type: Tools::Messages
+<% end %>

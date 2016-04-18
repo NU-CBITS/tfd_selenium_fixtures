@@ -157,3 +157,11 @@ test_slideshow_1:
 test_slideshow_2:
   title: Is this overkill?
   arm: arm1
+
+home_intro_3:
+  title: Home Introduction
+  arm: arm3
+
+audio_slideshow_3:
+  title: Audio Slideshow
+  arm: arm3

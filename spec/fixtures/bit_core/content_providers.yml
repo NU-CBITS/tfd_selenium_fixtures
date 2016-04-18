@@ -866,4 +866,207 @@
     source_content: feel_mood_intro (BitCore::Slideshow)
     content_module: slideshow_content_module_12_2
     position: 1
+
+  home_feed_3:
+    type: ContentProviders::FeedToolProvider
+    show_next_nav: false
+    content_module: home3_landing
+    position: 1
+
+  practice_landing:
+    type: ContentProviders::ModuleIndexProvider
+    content_module: practice_landing
+    position: 1
+
+  gratitude_index:
+    type: ContentProviders::GratitudeRecordings::IndexProvider
+    content_module: gratitude_index
+    position: 1
+
+  gratitude_new:
+    type: ContentProviders::GratitudeRecordings::NewProvider
+    content_module: gratitude_new
+    position: 1
+
+  positive_events_index:
+    type: ContentProviders::Experiences::IndexProvider
+    content_module: positive_events_index
+    position: 1
+
+  positive_events_new:
+    type: ContentProviders::Experiences::NewProvider
+    content_module: positive_events_new
+    position: 1
+
+  activation_new:
+    type: ContentProviders::Activities::NextProvider
+    content_module: activation_new
+    show_next_nav: false
+    position: 1
+
+  activation_review:
+    type: ContentProviders::Activities::ReviewPastProvider
+    content_module: activation_new
+    show_next_nav: true
+    position: 2
+
+  activation_index:
+    type: ContentProviders::Activities::IndexProvider
+    content_module: activation_index
+    position: 1
+
+  relax_autogenic_provider:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: audio_slideshow_3 (BitCore::Slideshow)
+    content_module: relax_autogenic_exercises3
+    position: 1
+
+  mindfulness_review:
+    type: ContentProviders::Activities::MindfulActivities::ReviewProvider
+    content_module: mindfulness_review
+    show_next_nav: false
+    position: 1
+
+  mindfulness_new:
+    type: ContentProviders::Activities::MindfulActivities::NewProvider
+    content_module: mindfulness_new
+    show_next_nav: false
+    position: 1
+
+  mindfulness_index_1:
+    type: ContentProviders::Activities::MindfulActivities::IndexProvider
+    content_module: mindfulness_new
+    show_next_nav: true
+    position: 2
+
+  mindfulness_index_2:
+    type: ContentProviders::Activities::MindfulActivities::IndexProvider
+    content_module: mindfulness_view
+    position: 1
+
+  meditation_new:
+    type: ContentProviders::Meditations::NewProvider
+    content_module: meditation_new
+    show_next_nav: false
+    position: 1
+
+  meditation_index_1:
+    type: ContentProviders::Meditations::IndexProvider
+    content_module: meditation_new
+    show_next_nav: true
+    position: 2
+
+  meditation_index_2:
+    type: ContentProviders::Meditations::IndexProvider
+    content_module: meditation_view
+    position: 1
+
+  kindness_new:
+    type: ContentProviders::Kindnesses::NewProvider
+    content_module: kindness_new
+    show_next_nav: false
+    position: 1
+
+  kindness_index_1:
+    type: ContentProviders::Kindnesses::IndexProvider
+    content_module: kindness_new
+    show_next_nav: true
+    position: 2
+
+  kindness_index_2:
+    type: ContentProviders::Kindnesses::IndexProvider
+    content_module: kindness_view
+    show_next_nav: false
+    position: 1
+
+  strength_new:
+    type: ContentProviders::Strengths::NewProvider
+    content_module: strength_new
+    show_next_nav: false
+    position: 1
+
+  strength_index_1:
+    type: ContentProviders::Strengths::IndexProvider
+    content_module: strength_new
+    show_next_nav: true
+    position: 2
+
+  strength_index_2:
+    type: ContentProviders::Strengths::IndexProvider
+    content_module: strength_view
+    show_next_nav: false
+    position: 1
+
+  reappraisal_new:
+    type: ContentProviders::Reappraisals::NewProvider
+    content_module: reappraisal_new
+    show_next_nav: false
+    position: 1
+
+  reappraisal_index_1:
+    type: ContentProviders::Reappraisals::IndexProvider
+    content_module: reappraisal_new
+    show_next_nav: true
+    position: 2
+
+  reappraisal_index_2:
+    type: ContentProviders::Reappraisals::IndexProvider
+    content_module: reappraisal_view
+    show_next_nav: false
+    position: 1
+
+  feel_landing3:
+    type: ContentProviders::ModuleIndexProvider
+    content_module: feeling_tracker_landing3
+    position: 1
+
+  emotions_rating:
+    type: ContentProviders::Emotions::NewYesterdayProvider
+    content_module: feeling_tracker_emotions_rating
+    position: 1
+
+  library_lessons_3:
+    type: ContentProviders::LearnLessonsIndexProvider
+    content_module: library_landing3
+    position: 1
+
+  content_provider_slideshow_1_3_a:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: home_intro_3 (BitCore::Slideshow)
+    content_module: slideshow_content_module_1_3
+    position: 1
+
+  content_provider_slideshow_1_3_b:
+    type: ContentProviders::LessonFeedback::FeedbackProvider
+    content_module: slideshow_content_module_1_3
+    position: 2
+
+  content_provider_slideshow_17_3_a:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: home_intro_3 (BitCore::Slideshow)
+    content_module: slideshow_content_module_17_3
+    position: 1
+
+  content_provider_slideshow_17_3_b:
+    type: ContentProviders::LessonFeedback::FeedbackProvider
+    content_module: slideshow_content_module_17_3
+    position: 2
+
+  messages_landing_3:
+    type: ContentProviders::SnMessagesIndexProvider
+    content_module: messages_landing3
+    position: 1
+
+  message_view_3:
+    type: ContentProviders::SnShowMessageProvider
+    content_module: messages_landing3
+    position: 2
+
+  messages_compose_3:
+    type: ContentProviders::SnNewMessageFormProvider
+    content_module: messages_landing3
+    position: 3
 <% end %>
