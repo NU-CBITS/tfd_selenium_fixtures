@@ -1,3 +1,6 @@
+## 0.0.11 - 2016-4-18
+* Update relevant fixtures with Marigold env variable
+
 ## 0.0.10 - 2016-4-15
 * Add Marigold fixtures
 
