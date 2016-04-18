@@ -1,143 +1,147 @@
-assignment1:
-  participant: participant1
-  coach: clinician1
+<% if true %>
+  assignment1:
+    participant: participant1
+    coach: clinician1
 
-assignment2:
-  participant: participant2
-  coach: user2
+  assignment2:
+    participant: participant2
+    coach: user2
 
-assignment3:
-  participant: inactive_participant
-  coach: clinician1
+  assignment3:
+    participant: inactive_participant
+    coach: clinician1
 
-assignment_in_group_3:
-  participant: participant3
-  coach: clinician1
+  assignment_in_group_3:
+    participant: participant3
+    coach: clinician1
 
-assignment4:
-  participant: participant4
-  coach: clinician1
+  assignment4:
+    participant: participant4
+    coach: clinician1
 
-assignment5:
-  participant: participant5
-  coach: clinician1
+  assignment5:
+    participant: participant5
+    coach: clinician1
 
-assignment_moderator:
-  participant: participant_grp1_moderator
-  coach: clinician1
+  assignment_moderator:
+    participant: participant_grp1_moderator
+    coach: clinician1
 
-assignment_background:
-  participant: participant_background
-  coach: clinician1
+  assignment_background:
+    participant: participant_background
+    coach: clinician1
 
-assignment_for_withdrawal_test:
-  participant: participant_for_withdraw_test
-  coach: clinician1
+  assignment_for_withdrawal_test:
+    participant: participant_for_withdraw_test
+    coach: clinician1
 
-assignment_for_non_social:
-  participant: participant_for_group5
-  coach: clinician1  
+  assignment_for_non_social:
+    participant: participant_for_group5
+    coach: clinician1  
 
-assignment_for_completor:
-  participant: participant_is_complete
-  coach: clinician1
+  assignment_for_completor:
+    participant: participant_is_complete
+    coach: clinician1
 
-assignment_for_mobile_completer:
-  participant: participant_mobile_complete
-  coach: clinician1
+  assignment_for_mobile_completer:
+    participant: participant_mobile_complete
+    coach: clinician1
 
-assignment61:
-  participant: participant61
-  coach: clinician1
+  assignment61:
+    participant: participant61
+    coach: clinician1
 
-assignment62:
-  participant: participant62
-  coach: clinician1
+  assignment62:
+    participant: participant62
+    coach: clinician1
 
-assignment63:
-  participant: participant63
-  coach: clinician1
+  assignment63:
+    participant: participant63
+    coach: clinician1
 
-assignment64:
-  participant: participant64
-  coach: clinician1
+  assignment64:
+    participant: participant64
+    coach: clinician1
 
-assignment65:
-  participant: participant65
-  coach: clinician1
+  assignment65:
+    participant: participant65
+    coach: clinician1
 
-assignment_data:
-  participant: participant_data
-  coach: clinician1
+  assignment_data:
+    participant: participant_data
+    coach: clinician1
 
-assignment_test_7:
-  participant: participant_test_7
-  coach: clinician1
+  assignment_test_7:
+    participant: participant_test_7
+    coach: clinician1
 
-assignment_for_phq_1:
-  participant: participant_phq_1
-  coach: clinician1
+  assignment_for_phq_1:
+    participant: participant_phq_1
+    coach: clinician1
 
-assignment_for_phq_2:
-  participant: participant_phq_2
-  coach: clinician1
+  assignment_for_phq_2:
+    participant: participant_phq_2
+    coach: clinician1
 
-assignment_for_phq_3:
-  participant: participant_phq_3
-  coach: clinician1
+  assignment_for_phq_3:
+    participant: participant_phq_3
+    coach: clinician1
 
-assignment_for_phq_4:
-  participant: participant_phq_4
-  coach: clinician1
+  assignment_for_phq_4:
+    participant: participant_phq_4
+    coach: clinician1
 
-assignment_for_phq_5:
-  participant: participant_phq_5
-  coach: clinician1
+  assignment_for_phq_5:
+    participant: participant_phq_5
+    coach: clinician1
 
-assignment_for_phq_6:
-  participant: participant_phq_6
-  coach: clinician1
+  assignment_for_phq_6:
+    participant: participant_phq_6
+    coach: clinician1
 
-assignment_for_phq_7:
-  participant: participant_phq_7
-  coach: clinician1
+  assignment_for_phq_7:
+    participant: participant_phq_7
+    coach: clinician1
 
-assignment_for_phq_8:
-  participant: participant_phq_8
-  coach: clinician1
+  assignment_for_phq_8:
+    participant: participant_phq_8
+    coach: clinician1
 
-assignment_for_phq_9:
-  participant: participant_phq_9
-  coach: clinician1
+  assignment_for_phq_9:
+    participant: participant_phq_9
+    coach: clinician1
 
-assignment_for_phq_10:
-  participant: participant_phq_10
-  coach: clinician1
+  assignment_for_phq_10:
+    participant: participant_phq_10
+    coach: clinician1
 
-assignment_for_phq_11:
-  participant: participant_phq_11
-  coach: clinician1
+  assignment_for_phq_11:
+    participant: participant_phq_11
+    coach: clinician1
 
-assignment_for_phq_12:
-  participant: participant_phq_12
-  coach: clinician1
+  assignment_for_phq_12:
+    participant: participant_phq_12
+    coach: clinician1
 
-assignment_for_phq_13:
-  participant: participant_phq_13
-  coach: clinician1
+  assignment_for_phq_13:
+    participant: participant_phq_13
+    coach: clinician1
 
-assignment_for_phq_14:
-  participant: participant_phq_14
-  coach: clinician1
+  assignment_for_phq_14:
+    participant: participant_phq_14
+    coach: clinician1
 
-assignment_for_phq_15:
-  participant: participant_phq_15
-  coach: clinician1
+  assignment_for_phq_15:
+    participant: participant_phq_15
+    coach: clinician1
 
-assignment_for_phq_16:
-  participant: participant_phq_16
-  coach: clinician1
+  assignment_for_phq_16:
+    participant: participant_phq_16
+    coach: clinician1
+<% end %>
 
-assignment_for_marigold_1:
-  participant: participant_marigold_1
-  coach: clinician1
+<% if ENV['marigold'] %>
+  assignment_for_marigold_1:
+    participant: participant_marigold_1
+    coach: clinician1
+<% end %>

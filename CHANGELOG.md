@@ -1,3 +1,6 @@
+## 0.0.12 - 2016-4-18
+* Add conditional logic to new Marigold fixtures to prevent breaking other apps
+
 ## 0.0.11 - 2016-4-18
 * Update relevant fixtures with Marigold env variable
 

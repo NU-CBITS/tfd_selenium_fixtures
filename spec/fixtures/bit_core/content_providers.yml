@@ -866,7 +866,9 @@
     source_content: feel_mood_intro (BitCore::Slideshow)
     content_module: slideshow_content_module_12_2
     position: 1
+<% end %>
 
+<% if ENV['marigold'] %>
   home_feed_3:
     type: ContentProviders::FeedToolProvider
     show_next_nav: false
@@ -1026,6 +1028,21 @@
     content_module: feeling_tracker_emotions_rating
     position: 1
 
+  messages_landing_3:
+    type: ContentProviders::SnMessagesIndexProvider
+    content_module: messages_landing3
+    position: 1
+
+  message_view_3:
+    type: ContentProviders::SnShowMessageProvider
+    content_module: messages_landing3
+    position: 2
+
+  messages_compose_3:
+    type: ContentProviders::SnNewMessageFormProvider
+    content_module: messages_landing3
+    position: 3
+
   library_lessons_3:
     type: ContentProviders::LearnLessonsIndexProvider
     content_module: library_landing3
@@ -1054,19 +1071,4 @@
     type: ContentProviders::LessonFeedback::FeedbackProvider
     content_module: slideshow_content_module_17_3
     position: 2
-
-  messages_landing_3:
-    type: ContentProviders::SnMessagesIndexProvider
-    content_module: messages_landing3
-    position: 1
-
-  message_view_3:
-    type: ContentProviders::SnShowMessageProvider
-    content_module: messages_landing3
-    position: 2
-
-  messages_compose_3:
-    type: ContentProviders::SnNewMessageFormProvider
-    content_module: messages_landing3
-    position: 3
 <% end %>
