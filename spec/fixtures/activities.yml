@@ -275,3 +275,38 @@ marigold_activation_activity_3:
   is_reviewed: false
   encouragement: Not a clue
   reminder: Remind remind remind
+
+marigold_mindfulness_activity_1:
+  participant: participant_marigold_1
+  activity_type: jogging_marigold
+  reminder: Mindfulness reminder
+  encouragement: Mindfulness encouragement
+  challenges: Mindfulness challenges
+  is_mindful: true
+  start_time: <%= DateTime.now - (1.days + 1.hours) %>
+  end_time: <%= DateTime.now - (1.days + 1.hours) %>
+  is_reviewed: false
+
+marigold_mindfulness_activity_2:
+  participant: participant_marigold_1
+  activity_type: speech_marigold
+  reminder: Speech reminder
+  encouragement: Speech encouragement
+  challenges: Speech challenges
+  is_mindful: true
+  start_time: <%= DateTime.now - (1.days + 2.hours) %>
+  end_time: <%= DateTime.now - (1.days + 2.hours) %>
+  is_reviewed: false
+
+marigold_mindfulness_activity_3:
+  participant: participant_marigold_1
+  activity_type: parkour_marigold
+  reminder: Parkour reminder
+  encouragement: Parkour encouragement
+  challenges: Parkour challenges
+  is_mindful: true
+  start_time: <%= DateTime.now - (1.days + 3.hours) %>
+  end_time: <%= DateTime.now - (1.days + 3.hours) %>
+  is_reviewed: true
+  emotions: Parkour emotions
+  notes: Parkour notes

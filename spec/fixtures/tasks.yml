@@ -804,3 +804,10 @@ group_marigold_task_20:
   bit_core_content_module: activation_new
   release_day: 1
   has_didactic_content: true
+
+group_marigold_task_21:
+  creator: clinician1
+  group: group_marigold
+  bit_core_content_module: mindfulness_review
+  release_day: 1
+  has_didactic_content: true

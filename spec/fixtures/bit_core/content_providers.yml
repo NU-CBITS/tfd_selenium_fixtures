@@ -925,7 +925,7 @@
   mindfulness_review:
     type: ContentProviders::Activities::MindfulActivities::ReviewProvider
     content_module: mindfulness_review
-    show_next_nav: true
+    show_next_nav: false
     position: 1
 
   mindfulness_new:
@@ -1024,7 +1024,6 @@
   emotions_rating:
     type: ContentProviders::Emotions::NewYesterdayProvider
     content_module: feeling_tracker_emotions_rating
-    # show_next_nav: true
     position: 1
 
   library_lessons_3:

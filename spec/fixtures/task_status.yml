@@ -1726,3 +1726,8 @@ task_status_marigold_1_task_20:
   membership: membership_marigold_1
   task: group_marigold_task_20
   start_day: 1
+
+task_status_marigold_1_task_21:
+  membership: membership_marigold_1
+  task: group_marigold_task_21
+  start_day: 1
