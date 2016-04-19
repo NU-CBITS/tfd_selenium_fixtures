@@ -1,3 +1,6 @@
+## 0.0.13 - 2016-4-18
+* Fix content_provider issue
+
 ## 0.0.12 - 2016-4-18
 * Add conditional logic to new Marigold fixtures to prevent breaking other apps
 

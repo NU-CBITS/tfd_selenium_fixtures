@@ -917,7 +917,7 @@
     content_module: activation_index
     position: 1
 
-  relax_autogenic_provider:
+  relax_autogenic_provider_3:
     type: BitCore::ContentProviders::SlideshowProvider
     show_next_nav: true
     source_content: audio_slideshow_3 (BitCore::Slideshow)
