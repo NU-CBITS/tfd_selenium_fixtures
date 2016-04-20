@@ -1663,7 +1663,7 @@
   task_status_marigold_1_task_7:
     membership: membership_marigold_1
     task: group_marigold_task_7
-    start_day: 1
+    start_day: 2
 
   task_status_marigold_1_task_8:
     membership: membership_marigold_1

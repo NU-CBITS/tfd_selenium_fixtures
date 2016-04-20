@@ -1,3 +1,7 @@
+## 0.0.14 - 2016-4-20
+* Update lessons to be released on different days for Marigold participant
+* Add back Testing arms
+
 ## 0.0.13 - 2016-4-18
 * Fix content_provider issue
 

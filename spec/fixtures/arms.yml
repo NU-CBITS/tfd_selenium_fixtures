@@ -19,4 +19,10 @@
   arm3:
     title: Marigold Arm 1
     is_social: true
+
+  testing_arm_1:
+    title: Testing Arm
+
+  testing_arm_2:
+    title: Testing Arm 2
 <% end %>
