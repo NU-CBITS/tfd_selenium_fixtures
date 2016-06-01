@@ -1060,6 +1060,11 @@
     content_module: slideshow_content_module_1_3
     position: 2
 
+  content_provider_slideshow_1_3_c:
+    type: ContentProviders::GratitudeRecordings::IndexProvider
+    content_module: slideshow_content_module_1_3
+    position: 3
+
   content_provider_slideshow_17_3_a:
     type: BitCore::ContentProviders::SlideshowProvider
     show_next_nav: true
