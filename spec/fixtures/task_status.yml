@@ -1477,122 +1477,122 @@
     start_day: 1
 
   task_status_moderator_1:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task1
     start_day: 1
 
   task_status_moderator_2:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task_doing
     start_day: 1
 
   task_status_moderator_3:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task2
     start_day: 1
 
   task_status_moderator_4:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: do_past_due_activities
     start_day: 1
 
   task_status_moderator_5:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: do_your_activities_viz
     start_day: 1
 
   task_status_moderator_6:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task5_day1
     start_day: 1
 
   task_status_moderator_7:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task5_day2
     start_day: 1
 
   task_status_moderator_8:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task6
     start_day: 1
 
   task_status_moderator_9:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task7
     start_day: 1
 
   task_status_moderator_10:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task8
     start_day: 1
 
   task_status_moderator_11:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: think_module_thoughts_table
     start_day: 1
 
   task_status_moderator_12:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: think_module_distortion_viz
     start_day: 1
 
   task_status_moderator_13:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task10
     start_day: 1
 
   task_status_moderator_14:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task11
     start_day: 1
 
   task_status_moderator_15:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task12
     start_day: 1
 
   task_status_moderator_16:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task13_1
     start_day: 1
 
   task_status_moderator_17:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task13_2
     start_day: 1
 
   task_status_moderator_18:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task14_1
     start_day: 1
 
   task_status_moderator_19:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task14_2
     start_day: 1
 
   task_status_moderator_20:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task16
     start_day: 1
 
   task_status_moderator_21:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task17
     start_day: 1
 
   task_status_moderator_22:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: task_create_activity
     start_day: 1
 
   task_status_moderator_23:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: view_activities_for_group1
     start_day: 1
 
   task_status_moderator_24:
-    membership: membership_moderator
+    membership: membership_group_1_moderator
     task: relax_autogenic_group1
     start_day: 1
 

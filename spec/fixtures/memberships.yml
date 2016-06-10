@@ -29,12 +29,6 @@
     start_date: <%= Date.today %>
     end_date: <%= Date.today + 365.days %>
 
-  membership_moderator:
-    participant: participant_grp1_moderator
-    group: group1
-    start_date: <%= Date.today %>
-    end_date: <%= Date.today + 4.days %>
-
   membership_background:
     participant: participant_background
     group: group1
@@ -260,4 +254,12 @@
     group: group_marigold
     start_date: <%= Date.today - 1.days %>
     end_date: <%= Date.today + 10.days %>
+<% end %>
+
+<% [1, 2, 3, 6, 8, 9, 10, 11, '_phq', '_goal'].each do |group_num| %>
+  membership_group_<%= group_num %>_moderator:
+    participant: participant_grp<%= group_num %>_moderator
+    group: group<%= group_num %>
+    start_date: <%= Date.today %>
+    end_date: <%= Date.today + 4.days %>
 <% end %>
