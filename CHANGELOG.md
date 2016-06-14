@@ -1,3 +1,6 @@
+## 0.0.16 - 2016-6-14
+* Add moderator participants
+
 ## 0.0.15 - 2016-6-1
 * Update SKILLS content module for testing in Marigold
 
