@@ -1,6 +1,6 @@
 <% [1, 2, 3, 6, 8, 9, 10, 11, '_phq', '_goal'].each do |group_num| %>
   participant_grp<%= group_num %>_moderator:
-    study_id: SunnySide
+    study_id: ModeratorParticipant<%= group_num %>
     email: clinician<%= group_num %>@example.com
     phone_number: "16305150171"
     display_name: "ThinkFeelDo"

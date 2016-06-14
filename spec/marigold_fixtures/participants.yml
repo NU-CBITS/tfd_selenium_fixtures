@@ -1,9 +1,9 @@
 <% [1, 2, 3, 6, 8, 9, 10, 11, '_phq', '_goal'].each do |group_num| %>
   participant_grp<%= group_num %>_moderator:
-    study_id: SunnySide
+    study_id: ModeratorParticipant<%= group_num %>
     email: clinician<%= group_num %>@example.com
     phone_number: "16305150171"
-    display_name: "ThinkFeelDo"
+    display_name: "Marigold"
     contact_preference: email
     encrypted_password: <%= Participant.new.send(:password_digest, "9ed56e32af0a77d8b60d85b3a6361054aa9306996a28eed36e95e87bef3642b3576239d978febfb2d21595a98dc4a48c7460b595d279d6f23a9d03d989bb1503") %>
     is_admin: true
