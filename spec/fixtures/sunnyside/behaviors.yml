@@ -34,6 +34,12 @@ behavior_gp1_comment3:
   condition: <%= Sunnyside::Behavior::CONDITION_CREATE %>
   created_at: <%= Time.zone.now %>
 
+behavior_gp1_comment4:
+  incentive: incentive_gp1_comments_2
+  action_type: SocialNetworking::Comment
+  condition: <%= Sunnyside::Behavior::CONDITION_CREATE %>
+  created_at: <%= Time.zone.now %>
+
 behavior_gp1_goal1:
   incentive: incentive_gp1_goals
   action_type: SocialNetworking::Goal

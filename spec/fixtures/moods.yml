@@ -11,6 +11,11 @@ participant1_average:
 participant_5_good:
   participant: participant5
   rating: 7
+  created_at: <%= Time.zone.now - 1.minutes %>
+
+participant_5_good_2:
+  participant: participant5
+  rating: 7
   created_at: <%= Time.zone.now %>
 
 participant_data_good:

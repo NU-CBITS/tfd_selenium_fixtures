@@ -62,6 +62,45 @@ participant_incentive_pg1_comments_pt_completed:
   is_notification_sent: true
   created_at: <%= Time.zone.now %>
 
+participant_incentive_pg1_comments_2_pt1:
+  participant: participant1
+  incentive: incentive_gp1_comments_2
+  created_at: <%= Time.zone.now %>
+
+participant_incentive_pg1_comments_2_pt2:
+  participant: participant2
+  incentive: incentive_gp1_comments_2
+  is_complete: true
+  is_notification_sent: true
+  created_at: <%= Time.zone.now %>
+
+participant_incentive_pg1_comments_2_pt3:
+  participant: participant3
+  incentive: incentive_gp1_comments_2
+  is_complete: true
+  is_notification_sent: true
+  created_at: <%= Time.zone.now %>
+
+participant_incentive_pg1_comments_2_pt_moderator:
+  participant: participant_grp1_moderator
+  incentive: incentive_gp1_comments_2
+  created_at: <%= Time.zone.now %>
+
+participant_incentive_pg1_comments_2_pt_background:
+  participant: participant_background
+  incentive: incentive_gp1_comments_2
+  created_at: <%= Time.zone.now %>
+
+participant_incentive_pg1_comments_2_pt_withdraw_test:
+  participant: participant_for_withdraw_test
+  incentive: incentive_gp1_comments_2
+  created_at: <%= Time.zone.now %>
+
+participant_incentive_pg1_comments_2_pt_completed:
+  participant: participant_is_complete
+  incentive: incentive_gp1_comments_2
+  created_at: <%= Time.zone.now %>
+
 participant_incentive_gp1_goal_pt3_1:
   participant: participant3
   incentive: incentive_gp1_goals

@@ -52,6 +52,18 @@ comment_pt2_3:
   item: p1_goal_yesterday (SocialNetworking::SharedItem)
   created_at: <%= Time.zone.now %>
 
+comment_pt2_4:
+  participant: participant2
+  text: Excellent!
+  item: audio_access1 (SocialNetworking::SharedItem)
+  created_at: <%= Time.zone.now %>
+
+comment_pt3_4:
+  participant: participant3
+  text: Right on!
+  item: p1_goal_yesterday (SocialNetworking::SharedItem)
+  created_at: <%= Time.zone.now %>
+
 comment_pt_moderator_1:
   participant: participant_grp1_moderator
   text: sweet

@@ -12,6 +12,14 @@ incentive_gp1_comments:
   image_url: flower2.png
   created_at: <%= Time.zone.now %>
 
+incentive_gp1_comments_2:
+  group: group1
+  scope: <%= Sunnyside::Incentive::SCOPE_GROUP %>
+  description: comment on 1 feed items
+  image_url: flower4.png
+  created_at: <%= Time.zone.now %>
+  minimum_count_for_completion: 3
+
 incentive_gp1_goals:
   group: group1
   scope: <%= Sunnyside::Incentive::SCOPE_INDIVIDUAL %>

@@ -1,3 +1,7 @@
+## 0.0.17 - 2016-6-15
+* Add mood for participant 5
+* Add partial group incentives
+
 ## 0.0.16 - 2016-6-14
 * Add moderator participants
 

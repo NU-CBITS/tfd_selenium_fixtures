@@ -82,6 +82,24 @@ participant_behavior_grp1_comments_pt2_3:
   created_at: <%= Time.zone.now %>
   is_notification_sent: true
 
+participant_behavior_grp1_comments_pt2_4:
+  participant: participant2
+  behavior: behavior_gp1_comment4
+  participant_incentive: participant_incentive_pg1_comments_2_pt2
+  is_complete: true
+  action: comment_pt2_4 (SocialNetworking::Comment)
+  created_at: <%= Time.zone.now %>
+  is_notification_sent: true
+
+participant_behavior_grp1_comments_pt3_4:
+  participant: participant3
+  behavior: behavior_gp1_comment4
+  participant_incentive: participant_incentive_pg1_comments_2_pt3
+  is_complete: true
+  action: comment_pt3_4 (SocialNetworking::Comment)
+  created_at: <%= Time.zone.now %>
+  is_notification_sent: true
+
 participant_behavior_grp1_comments_pt_moderator_1:
   participant: participant_grp1_moderator
   behavior: behavior_gp1_comment1
