@@ -596,6 +596,13 @@
     release_day: 1
     has_didactic_content: true
 
+  group11_task_2:
+    creator: user1
+    group: group11
+    bit_core_content_module: slideshow_content_module_1
+    release_day: 1
+    has_didactic_content: true
+
   group1_task_1:
     creator: clinician1
     group: group1

@@ -260,6 +260,6 @@
   membership_group<%= group_num %>_moderator:
     participant: participant_grp<%= group_num %>_moderator
     group: group<%= group_num %>
-    start_date: <%= Date.today %>
-    end_date: <%= Date.today + 4.days %>
+    start_date: <%= Date.today - 42.days %>
+    end_date: <%= Date.today + 42.days %>
 <% end %>

@@ -1,3 +1,6 @@
+## 0.0.18 - 2016-6-16
+* Update moderator memberships, add task to group 11
+
 ## 0.0.17 - 2016-6-15
 * Add mood for participant 5
 * Add partial group incentives
