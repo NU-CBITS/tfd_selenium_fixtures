@@ -33,3 +33,7 @@ fatigued_5:
 anxious_5:
   creator: participant5
   name: anxious
+
+anxious_6:
+  creator: participant_marigold_2
+  name: anxious

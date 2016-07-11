@@ -57,3 +57,27 @@ longing_data:
   emotion: longing
   rating: 2
   is_positive: false
+
+anxious_6a:
+  participant: participant_marigold_2
+  emotion: anxious_6
+  rating: 1
+  is_positive: false
+  created_at: <%= Time.zone.now - 3.days %>
+  updated_at: <%= Time.zone.now - 3.days %>
+
+anxious_6b:
+  participant: participant_marigold_2
+  emotion: anxious_6
+  rating: 8
+  is_positive: false
+  created_at: <%= Time.zone.now - 2.days%>
+  updated_at: <%= Time.zone.now - 2.days%>
+
+anxious_6c:
+  participant: participant_marigold_2
+  emotion: anxious_6
+  rating: 2
+  is_positive: false
+  created_at: <%= Time.zone.now - 1.days %>
+  updated_at: <%= Time.zone.now - 1.days %>

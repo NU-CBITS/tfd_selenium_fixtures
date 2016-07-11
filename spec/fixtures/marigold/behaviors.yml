@@ -63,3 +63,9 @@ behavior_gp9_goal1:
   action_type: SocialNetworking::Goal
   condition: <%= Marigold::Behavior::CONDITION_CREATE %>
   created_at: <%= Time.zone.now %>
+
+behavior_feel_multiday:
+  incentive: incentive_feel_multiday
+  action_type: EmotionalRating
+  condition: <%= Marigold::Behavior::CONDITION_CREATE %>
+  created_at: <%= Time.zone.now %>
