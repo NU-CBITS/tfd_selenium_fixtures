@@ -64,3 +64,27 @@ incentive_feel_multiday:
   image_url: flower3.png
   is_repeatable: false
   created_at: <%= Time.zone.now %>
+
+incentive_practice_multiday:
+  group: group_marigold
+  scope: <%= Marigold::Incentive::SCOPE_INDIVIDUAL %>
+  description: practice tracking 4 days in a row
+  image_url: flower4.png
+  is_repeatable: false
+  created_at: <%= Time.zone.now %>
+
+incentive_read_all_skills:
+  group: group_marigold
+  scope: <%= Marigold::Incentive::SCOPE_INDIVIDUAL %>
+  description: complete all skills
+  image_url: flower5.png
+  is_repeatable: false
+  created_at: <%= Time.zone.now %>
+
+incentive_login_streak:
+  group: group_marigold
+  scope: <%= Marigold::Incentive::SCOPE_INDIVIDUAL %>
+  description: login for 7 days in a row
+  image_url: flower6.png
+  is_repeatable: false
+  created_at: <%= Time.zone.now %>

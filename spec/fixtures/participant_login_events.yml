@@ -186,3 +186,11 @@
     inactive_log_out: true
     signed_out_at: <%= Time.zone.now - (10 - i).minutes %>
 <% end %>
+
+<% (1..6).each do |i| %>
+  login_marigold_3_<%= i %>:
+    participant: marigold_3
+    created_at: <%= Time.zone.now - i.days %>
+    inactive_log_out: true
+    signed_out_at: <%= Time.zone.now - i.days %>
+<% end %>

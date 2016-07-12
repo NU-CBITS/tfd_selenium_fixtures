@@ -80,3 +80,24 @@ participant_incentive_gp9_goal_pt_test_7:
   is_complete: true
   is_notification_sent: true
   created_at: <%= Time.zone.now %>
+
+participant_incentive_feel_multiday:
+  participant: participant_marigold_2
+  incentive: incentive_feel_multiday
+  created_at: <%= Time.zone.now - 4.days %>
+
+participant_incentive_practice_multiday:
+  participant: participant_marigold_2
+  incentive: incentive_practice_multiday
+  created_at: <%= Time.zone.now - 4.days %>
+
+participant_incentive_read_all_skills:
+  participant: participant_marigold_2
+  incentive: incentive_read_all_skills
+  created_at: <%= Time.zone.now %>
+
+participant_incentive_login_streak:
+  participant: marigold_3
+  incentive: incentive_login_streak
+  created_at: <%= Time.zone.now - 7.days %>
+

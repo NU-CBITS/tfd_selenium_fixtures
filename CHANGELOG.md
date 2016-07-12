@@ -1,3 +1,6 @@
+## 0.0.19 - 2016-7-12
+* Update incentives for Marigold
+
 ## 0.0.18 - 2016-6-16
 * Update moderator memberships, add task to group 11
 

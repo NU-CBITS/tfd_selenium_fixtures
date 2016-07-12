@@ -23,3 +23,22 @@ plot_positions_5:
   x: 27
   y: 45
 
+plot_positions_6:
+  participant_incentive: participant_incentive_feel_multiday
+  x: 27
+  y: 45
+
+plot_positions_7:
+  participant_incentive: participant_incentive_practice_multiday
+  x: 27
+  y: 45
+
+plot_positions_8:
+  participant_incentive: participant_incentive_read_all_skills
+  x: 27
+  y: 45
+
+plot_positions_9:
+  participant_incentive: participant_incentive_login_streak
+  x: 27
+  y: 45

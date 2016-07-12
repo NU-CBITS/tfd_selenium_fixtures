@@ -1644,6 +1644,7 @@
     membership: membership_marigold_2
     task: group_marigold_task_6
     start_day: 1
+    completed_at: <%= Time.zone.now %>
 
   task_status_marigold_2_task_7:
     membership: membership_marigold_2

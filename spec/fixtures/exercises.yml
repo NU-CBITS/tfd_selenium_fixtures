@@ -1,0 +1,20 @@
+marigold_2_exercise_1:
+  practice: meditation_2
+  practice_type: meditation
+  participant: participant_marigold_2
+  created_at: <%= Time.zone.now - 3.days %>
+  updated_at: <%= Time.zone.now - 3.days %>
+
+marigold_2_exercise_2:
+  practice: meditation_3
+  practice_type: meditation
+  participant: participant_marigold_2
+  created_at: <%= Time.zone.now - 2.days %>
+  updated_at: <%= Time.zone.now - 2.days %>
+
+marigold_2_exercise_3:
+  practice: meditation_4
+  practice_type: meditation
+  participant: participant_marigold_2
+  created_at: <%= Time.zone.now - 1.days %>
+  updated_at: <%= Time.zone.now - 1.days %>

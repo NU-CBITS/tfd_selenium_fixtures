@@ -3,3 +3,24 @@ meditation_1:
   comment: What an experience
   participant: participant_marigold_1
   created_at: <%= Time.zone.now - 2.hours %>
+
+meditation_2:
+  description: Guided-Breathing Meditation
+  comment: What an experience
+  participant: participant_marigold_2
+  created_at: <%= Time.zone.now - 3.days %>
+  updated_at: <%= Time.zone.now - 3.days %>
+
+meditation_3:
+  description: Guided-Breathing Meditation
+  comment: What an experience
+  participant: participant_marigol2_2
+  created_at: <%= Time.zone.now - 2.days %>
+  updated_at: <%= Time.zone.now - 2.days %>
+
+meditation_4:
+  description: Guided-Breathing Meditation
+  comment: What an experience
+  participant: participant_marigold_2
+  created_at: <%= Time.zone.now - 1.days %>
+  updated_at: <%= Time.zone.now - 1.days %>

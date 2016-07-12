@@ -69,3 +69,21 @@ behavior_feel_multiday:
   action_type: EmotionalRating
   condition: <%= Marigold::Behavior::CONDITION_CREATE %>
   created_at: <%= Time.zone.now %>
+
+behavior_practice_multiday:
+  incentive: incentive_practice_multiday
+  action_type: Exercise
+  condition: <%= Marigold::Behavior::CONDITION_STREAK %>
+  created_at: <%= Time.zone.now %>
+
+behavior_read_all_skills:
+  incentive: incentive_read_all_skills
+  action_type: TaskStatus
+  condition: <%= Marigold::Behavior::CONDITION_READ_ALL_SKILLS %>
+  created_at: <%= Time.zone.now %>
+
+behavior_login_streak:
+  incentive: incentive_login_streak
+  action_type: ParticipantLoginEvent
+  condition: <%= Marigold::Behavior::CONDITION_STREAK %>
+  created_at: <%= Time.zone.now - 7.days %>
