@@ -1,3 +1,7 @@
+## 0.0.20 - 2016-7-12
+* Update participants for TFD due to participant
+changes in Marigold
+
 ## 0.0.19 - 2016-7-12
 * Update incentives for Marigold
 
