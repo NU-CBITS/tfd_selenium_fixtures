@@ -165,3 +165,24 @@ home_intro_3:
 audio_slideshow_3:
   title: Audio Slideshow
   arm: arm3
+
+commitment_skill_1_summary:
+  title: Positive Events and Gratitude
+  arm: arm3
+
+commitment_skill_2_summary:
+  title: Activation
+  arm: arm3
+
+commitment_skill_3_summary:
+  title: Mindfulness
+  arm: arm3
+
+commitment_skill_4_summary:
+  title: Reappraisal
+  arm: arm3
+
+commitment_skill_5_summary:
+  title: Acts of Kindness
+  arm: arm3
+

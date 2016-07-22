@@ -1720,6 +1720,137 @@
     membership: membership_marigold_2
     task: group_marigold_task_21
     start_day: 1
+
+  task_status_marigold_4_task_1:
+    membership: membership_marigold_4
+    task: group_marigold_task_1
+    start_day: 1
+
+  task_status_marigold_4_task_2:
+    membership: membership_marigold_4
+    task: group_marigold_task_2
+    start_day: 1
+
+  task_status_marigold_4_task_3:
+    membership: membership_marigold_4
+    task: group_marigold_task_3
+    start_day: 1
+
+  task_status_marigold_4_task_4:
+    membership: membership_marigold_4
+    task: group_marigold_task_4
+    start_day: 1
+
+  task_status_marigold_4_task_5:
+    membership: membership_marigold_4
+    task: group_marigold_task_5
+    start_day: 1
+
+  task_status_marigold_4_task_6:
+    membership: membership_marigold_4
+    task: group_marigold_task_6
+    start_day: 1
+    completed_at: <%= Time.zone.now %>
+
+  task_status_marigold_4_task_7:
+    membership: membership_marigold_4
+    task: group_marigold_task_7
+    start_day: 2
+
+  task_status_marigold_4_task_8:
+    membership: membership_marigold_4
+    task: group_marigold_task_8
+    start_day: 1
+
+  task_status_marigold_4_task_9:
+    membership: membership_marigold_4
+    task: group_marigold_task_9
+    start_day: 1
+
+  task_status_marigold_4_task_10:
+    membership: membership_marigold_4
+    task: group_marigold_task_10
+    start_day: 1
+
+  task_status_marigold_4_task_11:
+    membership: membership_marigold_4
+    task: group_marigold_task_11
+    start_day: 1
+
+  task_status_marigold_4_task_12:
+    membership: membership_marigold_4
+    task: group_marigold_task_12
+    start_day: 1
+
+  task_status_marigold_4_task_13:
+    membership: membership_marigold_4
+    task: group_marigold_task_13
+    start_day: 1
+
+  task_status_marigold_4_task_14:
+    membership: membership_marigold_4
+    task: group_marigold_task_14
+    start_day: 1
+
+  task_status_marigold_4_task_15:
+    membership: membership_marigold_4
+    task: group_marigold_task_15
+    start_day: 1
+
+  task_status_marigold_4_task_16:
+    membership: membership_marigold_4
+    task: group_marigold_task_16
+    start_day: 1
+
+  task_status_marigold_4_task_17:
+    membership: membership_marigold_4
+    task: group_marigold_task_17
+    start_day: 1
+
+  task_status_marigold_4_task_18:
+    membership: membership_marigold_4
+    task: group_marigold_task_18
+    start_day: 1
+
+  task_status_marigold_4_task_19:
+    membership: membership_marigold_4
+    task: group_marigold_task_19
+    start_day: 1
+
+  task_status_marigold_4_task_20:
+    membership: membership_marigold_4
+    task: group_marigold_task_20
+    start_day: 1
+
+  task_status_marigold_4_task_21:
+    membership: membership_marigold_4
+    task: group_marigold_task_21
+    start_day: 1
+
+  task_status_marigold_4_task_22:
+    membership: membership_marigold_4
+    task: group_marigold_task_22
+    start_day: 1
+
+  task_status_marigold_4_task_23:
+    membership: membership_marigold_4
+    task: group_marigold_task_23
+    start_day: 1
+
+  task_status_marigold_4_task_24:
+    membership: membership_marigold_4
+    task: group_marigold_task_24
+    start_day: 1
+
+  task_status_marigold_4_task_25:
+    membership: membership_marigold_4
+    task: group_marigold_task_25
+    start_day: 1
+
+  task_status_marigold_4_task_26:
+    membership: membership_marigold_4
+    task: group_marigold_task_26
+    start_day: 1
 <% end %>
 
 # task statuses for moderator participants

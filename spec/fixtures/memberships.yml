@@ -266,6 +266,12 @@
     group: group_marigold
     start_date: <%= Date.today - 7.days %>
     end_date: <%= Date.today + 10.days %>
+
+  membership_marigold_4:
+    participant: marigold_4
+    group: group_marigold
+    start_date: <%= Date.today - 7.days %>
+    end_date: <%= Date.today + 10.days %>
 <% end %>
 
 <% [1, 2, 3, 6, 8, 9, 10, 11, '_phq', '_goal'].each do |group_num| %>

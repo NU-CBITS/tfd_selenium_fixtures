@@ -111,6 +111,7 @@
     position: 2
     arm: arm3
     title: PRACTICE
+    type: Tools::Practice
 
   feel_tracker3:
     position: 3
@@ -122,4 +123,10 @@
     title: CONTACT
     arm: arm3
     type: Tools::Messages
+
+  commitments:
+    position: 5
+    title: COMMITMENTS
+    arm: arm3
+    type: Tools::Commitments
 <% end %>

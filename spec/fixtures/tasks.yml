@@ -814,4 +814,34 @@
     bit_core_content_module: mindfulness_review
     release_day: 1
     has_didactic_content: true
+
+  group_marigold_task_22:
+    creator: clinician1
+    group: group_marigold
+    bit_core_content_module: commitment_skill_1
+    release_day: 1
+
+  group_marigold_task_23:
+    creator: clinician1
+    group: group_marigold
+    bit_core_content_module: commitment_skill_2
+    release_day: 1
+
+  group_marigold_task_24:
+    creator: clinician1
+    group: group_marigold
+    bit_core_content_module: commitment_skill_3
+    release_day: 1
+
+  group_marigold_task_25:
+    creator: clinician1
+    group: group_marigold
+    bit_core_content_module: commitment_skill_4
+    release_day: 1
+
+  group_marigold_task_26:
+    creator: clinician1
+    group: group_marigold
+    bit_core_content_module: commitment_skill_5
+    release_day: 1
 <% end %>

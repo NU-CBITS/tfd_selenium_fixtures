@@ -1076,4 +1076,201 @@
     type: ContentProviders::LessonFeedback::FeedbackProvider
     content_module: slideshow_content_module_17_3
     position: 2
+
+  choose_committment:
+    type: ContentProviders::Commitments::ChooseProvider
+    show_next_nav: false
+    content_module: select_skill
+    position: 1
+
+  # Skill 1
+  commitment_skill_1_summary:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: commitment_skill_1_summary (BitCore::Slideshow)
+    content_module: commitment_skill_1
+    position: 1
+
+  commitment_skill_1_optional_links:
+    type: ContentProviders::Commitments::OptionalLinks::PositiveEventGratitudeProvider
+    show_next_nav: true
+    content_module: commitment_skill_1
+    position: 2
+
+  commitment_skill_1_new:
+    type: ContentProviders::Commitments::New::PositiveEventGratitudeProvider
+    show_next_nav: true
+    content_module: commitment_skill_1
+    position: 3
+
+  commitment_skill_1_schedule:
+    type: ContentProviders::Commitments::ScheduleProvider
+    show_next_nav: false
+    content_module: commitment_skill_1
+    position: 4
+
+  commitment_skill_1_review:
+    type: ContentProviders::Commitments::ReviewProvider
+    show_next_nav: true
+    content_module: commitment_skill_1
+    position: 5
+
+  commitment_skill_1_finished_message:
+    type: ContentProviders::Commitments::FinishedMessageProvider
+    show_next_nav: true
+    content_module: commitment_skill_1
+    position: 6
+
+  # Skill 2
+  commitment_skill_2_summary:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: commitment_skill_2_summary (BitCore::Slideshow)
+    content_module: commitment_skill_2
+    position: 1
+
+  commitment_skill_2_optional_links:
+    type: ContentProviders::Commitments::OptionalLinks::ActivationProvider
+    show_next_nav: true
+    content_module: commitment_skill_2
+    position: 2
+
+  commitment_skill_2_new:
+    type: ContentProviders::Commitments::New::ActivationProvider
+    show_next_nav: true
+    content_module: commitment_skill_2
+    position: 3
+
+  commitment_skill_2_schedule:
+    type: ContentProviders::Commitments::ScheduleProvider
+    show_next_nav: false
+    content_module: commitment_skill_2
+    position: 4
+
+  commitment_skill_2_review:
+    type: ContentProviders::Commitments::ReviewProvider
+    show_next_nav: true
+    content_module: commitment_skill_2
+    position: 5
+
+  commitment_skill_2_finished_message:
+    type: ContentProviders::Commitments::FinishedMessageProvider
+    show_next_nav: true
+    content_module: commitment_skill_2
+    position: 6
+
+
+  # Skill 3
+  commitment_skill_3_summary:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: commitment_skill_3_summary (BitCore::Slideshow)
+    content_module: commitment_skill_3
+    position: 1
+
+  commitment_skill_3_optional_links:
+    type: ContentProviders::Commitments::OptionalLinks::MindfulnessProvider
+    show_next_nav: true
+    content_module: commitment_skill_3
+    position: 2
+
+  commitment_skill_3_new:
+    type: ContentProviders::Commitments::New::MindfulnessProvider
+    show_next_nav: true
+    content_module: commitment_skill_3
+    position: 3
+
+  commitment_skill_3_schedule:
+    type: ContentProviders::Commitments::ScheduleProvider
+    show_next_nav: false
+    content_module: commitment_skill_3
+    position: 4
+
+  commitment_skill_3_review:
+    type: ContentProviders::Commitments::ReviewProvider
+    show_next_nav: true
+    content_module: commitment_skill_3
+    position: 5
+
+  commitment_skill_3_finished_message:
+    type: ContentProviders::Commitments::FinishedMessageProvider
+    show_next_nav: true
+    content_module: commitment_skill_3
+    position: 6
+
+  # Skill 4
+  commitment_skill_4_summary:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: commitment_skill_4_summary (BitCore::Slideshow)
+    content_module: commitment_skill_4
+    position: 1
+
+  commitment_skill_4_optional_links:
+    type: ContentProviders::Commitments::OptionalLinks::ReappraisalProvider
+    show_next_nav: true
+    content_module: commitment_skill_4
+    position: 2
+
+  commitment_skill_4_new:
+    type: ContentProviders::Commitments::New::ReappraisalProvider
+    show_next_nav: true
+    content_module: commitment_skill_4
+    position: 3
+
+  commitment_skill_4_schedule:
+    type: ContentProviders::Commitments::ScheduleProvider
+    show_next_nav: false
+    content_module: commitment_skill_4
+    position: 4
+
+  commitment_skill_4_review:
+    type: ContentProviders::Commitments::ReviewProvider
+    show_next_nav: true
+    content_module: commitment_skill_4
+    position: 5
+
+  commitment_skill_4_finished_message:
+    type: ContentProviders::Commitments::FinishedMessageProvider
+    show_next_nav: true
+    content_module: commitment_skill_4
+    position: 6
+
+  # Skill 5
+  commitment_skill_5_summary:
+    type: BitCore::ContentProviders::SlideshowProvider
+    show_next_nav: true
+    source_content: commitment_skill_5_summary (BitCore::Slideshow)
+    content_module: commitment_skill_5
+    position: 1
+
+  commitment_skill_5_optional_links:
+    type: ContentProviders::Commitments::OptionalLinks::KindnessProvider
+    show_next_nav: true
+    content_module: commitment_skill_5
+    position: 2
+
+  commitment_skill_5_new:
+    type: ContentProviders::Commitments::New::KindnessActProvider
+    show_next_nav: true
+    content_module: commitment_skill_5
+    position: 3
+
+  commitment_skill_5_schedule:
+    type: ContentProviders::Commitments::ScheduleProvider
+    show_next_nav: false
+    content_module: commitment_skill_5
+    position: 4
+
+  commitment_skill_5_review:
+    type: ContentProviders::Commitments::ReviewProvider
+    show_next_nav: true
+    content_module: commitment_skill_5
+    position: 5
+
+  commitment_skill_5_finished_message:
+    type: ContentProviders::Commitments::FinishedMessageProvider
+    show_next_nav: true
+    content_module: commitment_skill_5
+    position: 6
 <% end %>

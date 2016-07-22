@@ -628,4 +628,34 @@
     title: Contact
     tool: messages3
     position: 1
+
+  select_skill:
+    title: Select Skill
+    tool: commitments
+    position: 1
+
+  commitment_skill_1:
+    title: "Positive Events and Gratitude: Appreciating the small, positive things that happen every day."
+    tool: commitments
+    position: 2
+
+  commitment_skill_2:
+    title: "Activation: Picking and commiting to small activities that help uyou keep moving. - If you can't decide on a skill, this is a good one to start with."
+    tool: commitments
+    position: 3
+
+  commitment_skill_3:
+    title: "Mindfulness: Paying attention to the present moment, rather than getting caught up in fears of what-ifs"
+    tool: commitments
+    position: 4
+
+  commitment_skill_4:
+    title: "Reappraisal: Looking for 'silver linings' and making the best of bad situations"
+    tool: commitments
+    position: 5
+
+  commitment_skill_5:
+    title: "Kindness: Boosting your own mood by being kind to others."
+    tool: commitments
+    position: 6
 <% end %>

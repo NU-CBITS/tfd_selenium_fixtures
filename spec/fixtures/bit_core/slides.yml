@@ -710,3 +710,69 @@ brand_new8:
   body: 'Test audio slide'
   type: BitCore::AudioSlide
   options: <%= { audio_url: "https://intellicare.cbits.northwestern.edu/static/audio/autogenic/01_autogenic.mp3" }.to_yaml.inspect %>
+
+commitment_skill_1_summary_facts:
+  slideshow: commitment_skill_1_summary
+  position: 1
+  title: "Top 4 facts about Noticing Positive Events and Gratitude" 
+  body: "1. Even when life...
+
+
+    2. Positive events can....
+
+
+    3. You can *amplify* a....
+
+
+    4. Remembering things..."
+
+commitment_skill_1_summary_pay_attention:
+  slideshow: commitment_skill_1_summary
+  position: 2
+  title: "Why pay attention to positive events?" 
+  body: "Positive events can give you a break from dealing with your problems...
+
+
+    Research shows that keeping..."
+
+commitment_skill_1_summary_examples:
+  slideshow: commitment_skill_1_summary
+  position: 3
+  title: "Examples of positive events" 
+  body: "
+    **Ordinary daily events:**
+
+    * getting a short line a the grocery store
+    * your train/bus arrives on time
+    * fresh-squeezed orange juice
+
+    **Nice interactions with others:**
+
+    * good customer service
+    * someone offers to help
+    * you were able to give...
+  "
+
+commitment_skill_2_summary_facts:
+  slideshow: commitment_skill_2_summary
+  position: 1
+  title: Slide 1
+  body: body content...
+
+commitment_skill_3_summary_facts:
+  slideshow: commitment_skill_3_summary
+  position: 1
+  title: Slide 1
+  body: body content...
+
+commitment_skill_4_summary_facts:
+  slideshow: commitment_skill_4_summary
+  position: 1
+  title: Slide 1
+  body: body content...
+
+commitment_skill_5_summary_facts:
+  slideshow: commitment_skill_5_summary
+  position: 1
+  title: Slide 1
+  body: body content...
