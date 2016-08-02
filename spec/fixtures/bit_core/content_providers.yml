@@ -1028,6 +1028,11 @@
     content_module: feeling_tracker_emotions_rating
     position: 1
 
+  emotions_rating_follow_up:
+    type: ContentProviders::StressAssessments::NewProvider
+    content_module: feeling_tracker_emotions_rating
+    position: 2
+
   messages_landing_3:
     type: ContentProviders::SnMessagesIndexProvider
     content_module: messages_landing3

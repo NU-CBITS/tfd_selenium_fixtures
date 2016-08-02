@@ -1,3 +1,6 @@
+## 0.0.22 - 2016-8-02
+* Update FEEL for Marigold
+
 ## 0.0.21 - 2016-7-22
 * Add marigold commitment fixtures
 
