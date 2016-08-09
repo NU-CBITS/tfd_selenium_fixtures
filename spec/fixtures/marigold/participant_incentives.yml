@@ -101,3 +101,17 @@ participant_incentive_login_streak:
   incentive: incentive_login_streak
   created_at: <%= Time.zone.now - 7.days %>
 
+participant_incentive_booster_1:
+  participant: marigold_7
+  incentive: incentive_booster_1
+  created_at: <%= Time.zone.now %>
+
+participant_incentive_booster_1:
+  participant: marigold_8
+  incentive: incentive_booster_1
+  created_at: <%= Time.zone.now %>
+
+  participant_incentive_booster_2:
+  participant: marigold_8
+  incentive: incentive_booster_2
+  created_at: <%= Time.zone.now %>

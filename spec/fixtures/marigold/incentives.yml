@@ -112,11 +112,3 @@ incentive_booster_3:
   image_url: flower6.png
   is_repeatable: false
   created_at: <%= Time.zone.now %>
-
-incentive_all_boosters:
-  group: group_marigold2
-  scope: <%= Marigold::Incentive::SCOPE_INDIVIDUAL %>
-  description: completes all three boosters
-  image_url: flower6.png
-  is_repeatable: false
-  created_at: <%= Time.zone.now %>

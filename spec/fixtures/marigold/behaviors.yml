@@ -90,24 +90,18 @@ behavior_login_streak:
 
 behavior_booster_1:
   incentive: incentive_booster_1
-  # action_type: ParticipantLoginEvent
-  # condition: <%= Marigold::Behavior::CONDITION_STREAK %>
-  created_at: <%= Time.zone.now - 7.days %>
+  action_type: Boosters::Reappraisal
+  condition: <%= Marigold::Behavior::CONDITION_INITIAL_SURVEYK %>
+  created_at: <%= Time.zone.now %>
 
 behavior_booster_2:
   incentive: incentive_booster_2
-  # action_type: ParticipantLoginEvent
-  # condition: <%= Marigold::Behavior::CONDITION_STREAK %>
-  created_at: <%= Time.zone.now - 7.days %>
+  action_type: Boosters::Reappraisal
+  condition: <%= Marigold::Behavior::CONDITION_INITIAL_SURVEYK %>
+  created_at: <%= Time.zone.now %>
 
 behavior_booster_3:
   incentive: incentive_booster_3
-  # action_type: ParticipantLoginEvent
-  # condition: <%= Marigold::Behavior::CONDITION_STREAK %>
-  created_at: <%= Time.zone.now - 7.days %>
-
-behavior_all_boosters:
-  incentive: incentive_all_boosters
-  # action_type: ParticipantLoginEvent
-  # condition: <%= Marigold::Behavior::CONDITION_STREAK %>
-  created_at: <%= Time.zone.now - 7.days %>
+  action_type: Boosters::Reappraisal
+  condition: <%= Marigold::Behavior::CONDITION_INITIAL_SURVEYK %>
+  created_at: <%= Time.zone.now %>
