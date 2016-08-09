@@ -156,6 +156,18 @@
   assignment_for_marigold_5:
     participant: marigold_5
     coach: clinician1
+
+  assignment_for_marigold_6:
+    participant: marigold_6
+    coach: clinician1
+
+  assignment_for_marigold_7:
+    participant: marigold_7
+    coach: clinician1
+
+  assignment_for_marigold_8:
+    participant: marigold_8
+    coach: clinician1
 <% end %>
 
 <% [1, 2, 3, 6, 8, 9, 10, 11, '_phq', '_goal'].each do |group_num| %>
