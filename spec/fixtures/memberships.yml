@@ -282,8 +282,8 @@
   membership_marigold_6:
     participant: marigold_6
     group: group_marigold2
-    start_date: <%= Date.today - 7.days %>
-    end_date: <%= Date.today %>
+    start_date: <%= Date.today - 8.days %>
+    end_date: <%= Date.today - 1.days %>
 
   membership_marigold_7:
     participant: marigold_7
