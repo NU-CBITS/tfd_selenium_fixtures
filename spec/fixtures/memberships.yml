@@ -284,18 +284,21 @@
     group: group_marigold2
     start_date: <%= Date.today - 8.days %>
     end_date: <%= Date.today - 2.days %>
+    is_complete: true
 
   membership_marigold_7:
     participant: marigold_7
     group: group_marigold2
     start_date: <%= Date.today - 38.days %>
     end_date: <%= Date.today - 2.days - 1.months %>
+    is_complete: true
 
   membership_marigold_8:
     participant: marigold_8
     group: group_marigold2
     start_date: <%= Date.today - 68.days %>
     end_date: <%= Date.today - 2.days - 3.months %>
+    is_complete: true
 <% end %>
 
 <% [1, 2, 3, 6, 8, 9, 10, 11, '_phq', '_goal'].each do |group_num| %>

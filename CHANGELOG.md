@@ -1,3 +1,6 @@
+## 0.0.23 - 2016-8-16
+* Update incentives for Marigold
+
 ## 0.0.22 - 2016-8-02
 * Update FEEL for Marigold
 

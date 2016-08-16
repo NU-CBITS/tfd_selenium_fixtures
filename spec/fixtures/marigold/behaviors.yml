@@ -90,18 +90,18 @@ behavior_login_streak:
 
 behavior_booster_1:
   incentive: incentive_booster_1
-  action_type: Boosters::Reappraisal
-  condition: <%= Marigold::Behavior::CONDITION_INITIAL_SURVEYK %>
+  action_type: Boosters::Activation
+  condition: <%= Marigold::Behavior::CONDITION_INITIAL_SURVEY %>
   created_at: <%= Time.zone.now %>
 
 behavior_booster_2:
   incentive: incentive_booster_2
-  action_type: Boosters::Reappraisal
-  condition: <%= Marigold::Behavior::CONDITION_INITIAL_SURVEYK %>
+  action_type: Boosters::Activation
+  condition: <%= Marigold::Behavior::CONDITION_FOLLOW_UP_SURVEY %>
   created_at: <%= Time.zone.now %>
 
 behavior_booster_3:
   incentive: incentive_booster_3
-  action_type: Boosters::Reappraisal
-  condition: <%= Marigold::Behavior::CONDITION_INITIAL_SURVEYK %>
+  action_type: Commitment
+  condition: <%= Marigold::Behavior::CONDITION_LAST_SURVEY %>
   created_at: <%= Time.zone.now %>

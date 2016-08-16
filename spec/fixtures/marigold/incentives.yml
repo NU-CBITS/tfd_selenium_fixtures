@@ -100,8 +100,8 @@ incentive_booster_1:
 incentive_booster_2:
   group: group_marigold2
   scope: <%= Marigold::Incentive::SCOPE_INDIVIDUAL %>
-  description: completes the seond booster
-  image_url: flower6.png
+  description: completes the second booster
+  image_url: flower5.png
   is_repeatable: false
   created_at: <%= Time.zone.now %>
 
@@ -109,6 +109,6 @@ incentive_booster_3:
   group: group_marigold2
   scope: <%= Marigold::Incentive::SCOPE_INDIVIDUAL %>
   description: completes the third booster
-  image_url: flower6.png
+  image_url: flower4.png
   is_repeatable: false
   created_at: <%= Time.zone.now %>
