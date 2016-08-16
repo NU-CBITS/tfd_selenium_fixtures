@@ -1851,6 +1851,21 @@
     membership: membership_marigold_4
     task: group_marigold_task_26
     start_day: 1
+
+  task_status_marigold_6_task_1:
+    membership: membership_marigold_6
+    task: group_marigold_task_23
+    start_day: 1
+
+  task_status_marigold_7_task_1:
+    membership: membership_marigold_7
+    task: group_marigold_task_23
+    start_day: 1
+
+  task_status_marigold_8_task_1:
+    membership: membership_marigold_8
+    task: group_marigold_task_23
+    start_day: 1
 <% end %>
 
 # task statuses for moderator participants

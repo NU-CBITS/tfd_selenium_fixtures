@@ -42,3 +42,48 @@ plot_positions_9:
   participant_incentive: participant_incentive_login_streak
   x: 27
   y: 45
+
+plot_positions_10:
+  participant_incentive: participant_incentive_booster_1_ptm_6
+  x: 27
+  y: 45
+
+plot_positions_11:
+  participant_incentive: participant_incentive_booster_2_ptm_6
+  x: 70
+  y: 80
+
+plot_positions_12:
+  participant_incentive: participant_incentive_booster_3_ptm_6
+  x: 59
+  y: 20
+
+plot_positions_13:
+  participant_incentive: participant_incentive_booster_1_ptm_7
+  x: 27
+  y: 45
+
+plot_positions_14:
+  participant_incentive: participant_incentive_booster_2_ptm_7
+  x: 70
+  y: 80
+
+plot_positions_15:
+  participant_incentive: participant_incentive_booster_3_ptm_7
+  x: 59
+  y: 20
+
+plot_positions_16:
+  participant_incentive: participant_incentive_booster_1_ptm_8
+  x: 27
+  y: 45
+
+plot_positions_17:
+  participant_incentive: participant_incentive_booster_2_ptm_8
+  x: 70
+  y: 80
+
+plot_positions_18:
+  participant_incentive: participant_incentive_booster_3_ptm_8
+  x: 59
+  y: 20

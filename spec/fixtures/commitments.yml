@@ -1,0 +1,14 @@
+commitment_1_pt7:
+  type: Boosters::Activation
+  participant: marigold_7
+  summary: Gobble-dy-gook
+
+commitment_1_pt8:
+  type: Boosters::Activation
+  participant: marigold_8
+  summary: Gobble-dy-gook
+
+commitment_2_pt8:
+  type: Boosters::Activation
+  participant: marigold_8
+  summary: Gobble-dy-gook

@@ -207,3 +207,30 @@ participant_behavior_grp9_goals_pt_test_7:
   is_notification_sent: true
   action: participant_test_7_goal (SocialNetworking::Goal)
   created_at: <%= Time.zone.now %>
+
+participant_behavior_booster_1:
+  participant: marigold_7
+  behavior: behavior_booster_1
+  participant_incentive: participant_incentive_booster_1_ptm_7
+  is_complete: true
+  is_notification_sent: true
+  action: commitment_1_pt7 (Commitment)
+  created_at: <%= Time.zone.now %>
+
+participant_behavior_booster_2:
+  participant: marigold_8
+  behavior: behavior_booster_1
+  participant_incentive: participant_incentive_booster_1_ptm_8
+  is_complete: true
+  is_notification_sent: true
+  action: commitment_1_pt8 (Commitment)
+  created_at: <%= Time.zone.now %>
+
+participant_behavior_booster_3:
+  participant: marigold_8
+  behavior: behavior_booster_2
+  participant_incentive: participant_incentive_booster_2_ptm_8
+  is_complete: true
+  is_notification_sent: true
+  action: commitment_2_pt8 (Commitment)
+  created_at: <%= Time.zone.now %>
