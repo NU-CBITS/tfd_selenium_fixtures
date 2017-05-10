@@ -1,3 +1,6 @@
+## 0.0.24 - 2017-05-10
+* Update participants for Sunnyside
+
 ## 0.0.23 - 2016-8-16
 * Update incentives for Marigold
 
